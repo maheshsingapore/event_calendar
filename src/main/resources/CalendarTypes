@@ -1,0 +1,11 @@
+1) list of rules =
+    weekdays = 0 0 0 ? * MON-FRI *
+    weekends = 0 0 0 ? * SAT,SUN *
+
+2) list of events
+    2017 public holidays = 0 0 0 25 6 ? *
+
+3) list of exclusions/ overrides =
+    working_weekend = 0 0 0 10 6 ? * // marking June 10 (sat) as working
+
+4) a single parent = calendar_id
